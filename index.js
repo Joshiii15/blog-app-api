@@ -13,6 +13,7 @@ app.use(express.urlencoded({ extended: true }));
 
 const corsOptions = {
   origin: [
+    "https://blog-app-api-4c9z.onrender.com",
     "http://localhost:8000",
     "http://localhost:4000",
     "http://localhost:3000",
