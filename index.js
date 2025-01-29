@@ -13,7 +13,7 @@ app.use(express.urlencoded({ extended: true }));
 
 const corsOptions = {
   origin: [
-    "https://blog-app-api-4c9z.onrender.com",
+    "https://blog-app-client-lilac.vercel.app/login",
     "http://localhost:8000",
     "http://localhost:4000",
     "http://localhost:3000",
